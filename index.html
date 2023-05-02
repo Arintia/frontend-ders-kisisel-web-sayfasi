@@ -5,32 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css"> <!-- EXTERNAL CSS -->
+    <style>
+        p {
+            color: blue;
+            font-size: 20px;
+        }
+    </style> <!-- INTERNAL CSS -->
 </head>
 <body>
-    <header>
-        <h1>Yiğit Atak</h1>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Ana sayfa</a></li>
-                <li><a href="./about.html">Hakkımda</a></li>
+    <div class="navbar">
+        <h1 style="color: red;" id="navbar-header">Yiğit Atak</h1> <!-- INLINE CSS -->
+        <div>
+            <ul id="navbar-list">
+                <li class="navbar-list-item"><a href="./index.html" class="navbar-list-link">Ana sayfa</a></li>
+                <li class="navbar-list-item"><a href="./about.html" class="navbar-list-link">Hakkımda</a></li>
             </ul>
-        </nav>
-    </header>
-    <main>
+        </div>
+    </div>
+    <div id="tanitim">
         <img src="./yigit.png" alt="Yiğit Atak">
-        <p>İsmim Yiğit. 24 yaşındayım. Hacettepe BÖTE 3. sınıf öğrencisiyim.</p>
-        <hr>
-    </main>
-    <section>
+        <p id="tanitim-yazisi">İsmim Yiğit. 24 yaşındayım. Hacettepe BÖTE 3. sınıf öğrencisiyim.</p>
+    </div>
+    <hr>
+    <div id="bildigim-diller">
         <h2>Bildiğim Diller</h2>
         <ul>
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
         </ul>
-    </section>
-    <footer>
+    </div>
+    <div id="footer">
         <p>Bu web sayfası Yiğit ATAK tarafından 2023 yılında yapılmıştır.</p>
-    </footer>
+    </div>
 </body>
 </html>

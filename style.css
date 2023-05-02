@@ -1,0 +1,66 @@
+/* selector - seçici */
+html {
+    margin: 0;
+    padding: 0;
+}
+
+
+#navbar-list {
+    display: flex;
+    width: 50vw;
+    justify-content: space-around;
+}
+
+h1#navbar-header {
+    font-size: 16px;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+#tanitim {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+}
+
+img {
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.navbar { /* NAVBAR CLASSI */
+    display: flex;
+    width: 100vw; /* viewport width(genişlik)in 100% */
+    height: 50px;
+    align-items: center;
+    background-color: #FE938C;
+    margin-bottom: 50px;
+}
+
+.navbar-list-item {
+    list-style: none;
+    color: white;
+}
+
+.navbar-list-link {
+    color: white;
+    text-decoration: none;
+}
+
+#tanitim-yazisi {
+    margin-left: 20px;
+    padding: 5px;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+}
+
+#footer p {
+    margin: 0;
+}
